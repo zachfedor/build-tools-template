@@ -4,6 +4,7 @@
   "description": "A directory to practice build tools",
   "main": "index.html",
   "scripts": {
+    "start": "gulp browser-sync",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
