@@ -4,13 +4,18 @@
   "description": "A directory to practice build tools",
   "main": "index.html",
   "scripts": {
-    "start": "gulp browser-sync",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "html": "gulp html",
+    "css": "gulp css",
+    "lint": "gulp lint"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-csslint": "^1.0.1",
+    "gulp-html-linter": "^1.0.0",
+    "gulp-util": "^3.0.8"
   }
 }
