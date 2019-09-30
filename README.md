@@ -7,9 +7,9 @@ This project is a template that you can use for basic HTML and CSS editing. You 
 
 1. Clone this repository so you have the files locally.
 2. Copy the following files to your new project's root directory:
-  1. `package.json`
-  2. `gulpfile.js`
-  3. `.gitignore`
+     * `package.json`
+     * `gulpfile.js`
+     * `.gitignore`
 3. Run `npm install` from inside your project directory to get the dependencies.
 4. Run `npm start` to serve your website!
 
