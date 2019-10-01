@@ -1,6 +1,6 @@
 const { parallel, src, series, watch } = require('gulp');
 const browserSync = require('browser-sync').create();
-const htmlLint = require('gulp-html-linter');
+const htmlLint = require('gulp-htmllint');
 const cssLint = require('gulp-csslint');
 
 
@@ -20,8 +20,7 @@ const reload = (cb) => {
 // HTML Linting
 const html = (cb) => {
   src(['**/*.html', '!node_modules/**/*.html' ])
-    .pipe(htmlLint())
-    .pipe(htmlLint.format());
+    .pipe(htmlLint());
 
   cb();
 };
